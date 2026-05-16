@@ -137,23 +137,6 @@ python -m streamlit run app.py
 
 ---
 
-## Hugging Face Configuration
-
-Create:
-
-```text
-.streamlit/secrets.toml
-```
-
-Add your Hugging Face token locally:
-
-```toml
-HF_TOKEN = "YOUR_TOKEN_HERE"
-HF_MODEL_ID = "mistralai/Mistral-7B-Instruct-v0.3"
-```
-
----
-
 ## Example Questions
 
 - Why is profit low in some regions?
@@ -166,22 +149,22 @@ HF_MODEL_ID = "mistralai/Mistral-7B-Instruct-v0.3"
 
 ## Business Value
 
-This project demonstrates how AI and data analytics can work together to:
-- support business decision-making,
-- identify sales weaknesses,
-- improve operational awareness,
-- and generate executive-level insights.
+This project demonstrates how sales data can be transformed into useful insights for business decision-making. It highlights:
+
+- profitability analysis
+- regional performance review
+- category-level insights
+- discount impact analysis
+- interactive analytics for business users
 
 ---
 
 ## Future Improvements
-
-- SQL database integration
-- Better visualization dashboards
-- Real-time sales ingestion
-- Advanced LLM prompting
-- RAG (Retrieval-Augmented Generation)
-- Chat memory and conversation history
+- Add database support
+- Improve AI response quality
+- Add charts and KPI cards
+- Introduce chat memory
+- Connect to a stronger LLM backend
 
 ---
 
